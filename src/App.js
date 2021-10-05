@@ -1,11 +1,12 @@
 import React from 'react';
 import './style.css';
+import TodoForm from './Components/TodoForm';
 
-export default function App() {
+ function App() {
   return (
-    <div>
-      <h1>Hello S!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className='todo-App'>
+      <TodoForm/>
     </div>
   );
 }
+export default App;
