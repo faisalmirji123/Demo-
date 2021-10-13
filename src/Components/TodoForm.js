@@ -15,7 +15,7 @@ function TodoForm() {
         name="text"
         className="todo-input"
       />
-      <button className="todo-button">ADD a todo</button>
+      <button className="todo-button">Add a todo</button>
     </form>
   );
 }
