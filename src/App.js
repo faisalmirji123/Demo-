@@ -8,9 +8,9 @@ import TodoList from './Components/TodoList';
   return (
     <div className='todo-App'>
       <TodoList/>
-      <
+      
       
     </div>
-  );
-}
+  )
+};
 export default App;
