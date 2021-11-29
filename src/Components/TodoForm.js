@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function TodoForm() {
-  const [input, setInput] = useState('');
-  const handleSubmit = e=> {
-   e.preventDefault ();
-
-};
+  const [input, setInput] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
-  <form className="todo-form" onSubmit={handleSubmit}>
+    <form
+      style={{ textAlign: "center" }}
+      className="todo-form"
+      onSubmit={handleSubmit}
+    >
       <input
         type="text"
         placeholder="Hello"
@@ -20,4 +23,3 @@ function TodoForm() {
   );
 }
 export default TodoForm;
-
