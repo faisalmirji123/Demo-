@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function TodoForm() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
   };
   return (
     <form
-      style={{ textAlign: "center" }}
+      style={{ textAlign: 'center' }}
       className="todo-form"
       onSubmit={handleSubmit}
     >
       <input
         type="text"
-        placeholder="Hello"
+        placeholder="To-do"
         value={input}
         name="text"
         className="todo-input"
