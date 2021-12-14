@@ -2,7 +2,7 @@ h1, p {
   font-family: Lato;
 }
 .todo-App{
-background-color: rgb(158, 127, 26);
+background-color: rgb(231, 152, 86);
 display: flex;
 }
 TodoList{
