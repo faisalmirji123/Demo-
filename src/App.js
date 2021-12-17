@@ -8,6 +8,8 @@ function App() {
   return (
     <div className="todo-App">
       <TodoList />
+      <TodoList />
+      <TodoList />
       
     </div>
   );
