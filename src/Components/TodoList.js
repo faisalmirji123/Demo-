@@ -6,7 +6,7 @@ function TodoList() {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}> Faisal Front End Web Developer </h1>
+      <h1 style={{ textAlign: "center" }}>Front End Web Developer </h1>
       <TodoForm />
       <Todo />
       <p style={{ textAlign: "center" }}> Hello Code Daily</p>
