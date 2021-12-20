@@ -9,9 +9,7 @@ function App() {
     <div className="todo-App">
       <TodoList />
       <TodoList />
-      
-      
-    </div>
+        </div>
   );
 }
 export default App;
